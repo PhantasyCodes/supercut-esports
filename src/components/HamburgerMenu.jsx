@@ -16,12 +16,12 @@ const HamburgerMenu = (props) => {
                 animate={props.isOpen ? "open" : "closed"} 
                 initial={false} 
                 variants={{
-                    closed: { d: "M 2 2.5 L 20 2.5" , stroke: "hsl(0, 0%, 0%)" },
+                    closed: { d: "M 2 3.5 L 20 3.5" , stroke: "hsl(0, 0%, 0%)" },
                     open: { d: "M 3 16.5 L 17 2.5", stroke: "hsl(0, 0%, 0%)" }
                 }} 
                 transition={transition} />
             <Path 
-                d="M 2 9.423 L 20 9.423" 
+                d="M 7 9.423 L 20 9.423" 
                 stroke="hsl(0, 0%, 0%)" 
                 animate={props.isOpen ? "open" : "closed"} 
                 initial={false} 
@@ -30,7 +30,7 @@ const HamburgerMenu = (props) => {
             <Path 
                 animate={props.isOpen ? "open" : "closed"} 
                 initial={false} 
-                variants={{ closed : { d: "M 2 16.346 L 20 16.346", stroke: "hsl(0, 0%, 0%)" }, open: { d: "M 3 2.5 L 17 16.346", stroke: "hsl(0, 0%, 0%)" } }} 
+                variants={{ closed : { d: "M 2 15.346 L 20 15.346", stroke: "hsl(0, 0%, 0%)" }, open: { d: "M 3 2.5 L 17 16.346", stroke: "hsl(0, 0%, 0%)" } }} 
                 transition={transition} />
         </svg>
     </div>
