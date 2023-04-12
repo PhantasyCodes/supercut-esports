@@ -23,15 +23,33 @@
 .hero {
     padding-top: 20vh;
     padding-left: 5vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 55%;
 }
 
 .hero h1 {
     font-size: 7rem;
-    max-width: 50%;
     font-weight: 100;
     line-height: 6.5rem;
 }
 
 .hero h1 span {
     color: #78E185;
+}
+
+.hero p {
+    font-size: 3rem;
+    margin: 3.5rem 0rem;
+    font-weight: 400;
+    border-left: 7px solid #FF3C38;
+    padding-left: 2rem;
+}
+
+.hero img {
+    margin-top: 5rem;
 }

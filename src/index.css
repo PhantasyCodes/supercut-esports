@@ -6,3 +6,17 @@
 h1 {
   font-family: Bagnard;
 }
+
+p {
+  font-family: Metropolis;
+}
+
+.button {
+  background-color: white;
+  border: 7px solid #FF3C38;
+  font-family: Bagnard;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
