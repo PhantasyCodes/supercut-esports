@@ -19,3 +19,19 @@
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+.hero {
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+
+.hero h1 {
+    font-size: 7rem;
+    max-width: 50%;
+    font-weight: 100;
+    line-height: 6.5rem;
+}
+
+.hero h1 span {
+    color: #78E185;
+}
