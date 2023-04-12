@@ -10,6 +10,7 @@ const transition = { duration: 0.3 }
 const HamburgerMenu = (props) => {
   return (
     <div onClick={props.toggle} className='hamburger'>
+        <h1>MENU</h1>
         <svg width="43" height="43" viewBox="0 0 23 23">
             <Path 
                 animate={props.isOpen ? "open" : "closed"} 

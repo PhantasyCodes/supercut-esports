@@ -1,5 +1,21 @@
 .nav {
     position: fixed;
-    padding: 1.5rem 1rem;
     display: flex;
+    justify-content: space-between;
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: 2.5rem auto;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger h1 {
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
