@@ -21,7 +21,7 @@ const HamburgerMenu = (props) => {
                 }} 
                 transition={transition} />
             <Path 
-                d="M 7 9.423 L 20 9.423" 
+                d="M 7 9.423 L 20 9.423"
                 stroke="hsl(0, 0%, 0%)" 
                 animate={props.isOpen ? "open" : "closed"} 
                 initial={false} 

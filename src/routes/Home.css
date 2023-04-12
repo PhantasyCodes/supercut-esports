@@ -21,9 +21,10 @@
 }
 
 .hero {
+    font-size: 100%;
     padding-top: 20vh;
     padding-left: 5vw;
-    padding-right: 10vw;
+    padding-right: 10em;
     display: flex;
     justify-content: space-between;
 }
