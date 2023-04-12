@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const Path = (props) => (
-    <motion.path strokeLinecap="round" strokeWidth="3" {...props} />
+    <motion.path strokeLinecap="round" strokeWidth="2" {...props} />
 )
 
 const transition = { duration: 0.3 }
