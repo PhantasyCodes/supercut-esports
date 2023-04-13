@@ -1,3 +1,19 @@
+.news {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #78E185;
+    padding-left: 0.25vw;
+    padding-right: 0.25vw;
+    z-index: 99;
+}
+
+.news h2 {
+    writing-mode: vertical-lr;
+    font-size: 1vw;
+}
+
 .nav {
     position: fixed;
     display: flex;
@@ -62,7 +78,7 @@
     flex-direction: row;
 }
 
-.game-slide img {
+.unique-img {
     border-radius: 5rem;
     margin-left: -15rem;
 }
@@ -81,10 +97,10 @@
 .game-slide p {
     font-size: 3rem;
     max-width: 40rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .slide-text {
-    margin-left: 2rem;
+    margin-left: 5rem;
 }
