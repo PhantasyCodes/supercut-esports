@@ -57,44 +57,16 @@
     max-width: 30rem;
 }
 
-.fortnite-container {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 5rem;
+.game-slide img {
+    border-radius: 5rem;
+    margin-left: -15rem;
 }
 
-.fortnite-text {
-    max-width: 55vw;
-}
-
-.fortnite-logo {
-    max-width: 44rem;
-}
-
-.fortnite-text h2 {
+.game-slide h2 {
+    position: absolute;
+    top: 70%;
+    margin-left: 33vw;
     font-size: 5rem;
-    margin-bottom: 2rem;
-}
-
-.fortnite-text h2 span {
-    color: #FF3C38;
-}
-
-.fortnite-text p {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-}
-
-.unique {
-    max-width: 40vw;
-}
-
-.COD {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    background-color: #78E185;
-}
-
-.COD .fortnite-text {
-    /* max-width: 55vw; */
+    /* margin-bottom: 30vh; */
+    /* z-index: 99; */
 }
