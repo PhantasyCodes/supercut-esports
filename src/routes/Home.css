@@ -60,11 +60,11 @@
 .fortnite-container {
     display: flex;
     justify-content: space-between;
-    padding-right: 11rem;
+    padding-right: 5rem;
 }
 
 .fortnite-text {
-    max-width: 50vw;
+    max-width: 55vw;
 }
 
 .fortnite-logo {
@@ -83,4 +83,18 @@
 .fortnite-text p {
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+
+.unique {
+    max-width: 40vw;
+}
+
+.COD {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: #78E185;
+}
+
+.COD .fortnite-text {
+    /* max-width: 55vw; */
 }
