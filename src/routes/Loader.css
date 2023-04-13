@@ -1,0 +1,25 @@
+.loading-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FF3C38;
+    overflow-y: hidden;
+}
+
+.progress {
+    position: absolute;
+    bottom: 12vh;
+    margin-left: 2vw;
+    /* margin-top: 20vw; */
+    height: 10px;
+    background-color: white;
+    /* width: 100px; */
+}
+
+.progress-bar h2 {
+    position: absolute;
+    color: white;
+    font-family: Furore;
+    bottom: 15vh;
+    right: 5vw;
+    font-size: 15vw;
+}

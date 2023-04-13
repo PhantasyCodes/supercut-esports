@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../assets/logo.png'
 import HamburgerMenu from './HamburgerMenu'
 import { useState } from 'react'
+import { motion } from 'framer-motion'
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false);
@@ -21,6 +22,8 @@ const Nav = () => {
 
   const menuTransition = { type: "spring", duration: 1, stiffness: 33, delay: 0.1 }
 
+  const navTransition = { type: 'spring', stiffness: 560, damping: 20 }
+
   const navVariants = {
       show: {
           x: 0,
@@ -33,10 +36,10 @@ const Nav = () => {
   }
   return (
     <div className='nav'>
-        <div className='nav-logo'>
+        <motion.div initial={{y: -100}} animate={{y:0, transition: {...navTransition}}} className='nav-logo'>
             <img src={Logo} alt='Supercut Esports Logo' />
-        </div>
-        <HamburgerMenu toggle={toggleMenu} isOpen={isOpen}/>
+        </motion.div>
+        <HamburgerMenu transition={navTransition} toggle={toggleMenu} isOpen={isOpen}/>
     </div>
   )
 }

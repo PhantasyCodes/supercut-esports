@@ -9,7 +9,7 @@ const transition = { duration: 0.3 }
 
 const HamburgerMenu = (props) => {
   return (
-    <div onClick={props.toggle} className='hamburger'>
+    <motion.div initial={{y: -100}} animate={{y:0, transition: {...props.transition}}} onClick={props.toggle} className='hamburger'>
         <h1>MENU</h1>
         <svg width="43" height="43" viewBox="0 0 23 23">
             <Path 
@@ -33,7 +33,7 @@ const HamburgerMenu = (props) => {
                 variants={{ closed : { d: "M 2 15.346 L 20 15.346", stroke: "hsl(0, 0%, 0%)" }, open: { d: "M 3 2.5 L 17 16.346", stroke: "hsl(0, 0%, 0%)" } }} 
                 transition={transition} />
         </svg>
-    </div>
+    </motion.div>
   )
 }
 
