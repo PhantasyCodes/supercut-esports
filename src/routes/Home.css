@@ -58,15 +58,13 @@
 }
 
 .fortnite-container {
-    height: 80vh;
-    width: 100vw;
-    background-color: #78E185;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-right: 11rem;
 }
 
 .fortnite-text {
-    max-width: 55vw;
+    max-width: 50vw;
 }
 
 .fortnite-logo {
@@ -75,14 +73,14 @@
 
 .fortnite-text h2 {
     font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.fortnite-text h2 span {
+    color: #FF3C38;
 }
 
 .fortnite-text p {
     font-size: 3rem;
-}
-
-.unique {
-    position: absolute;
-    left: 0;
-    bottom: 13.5rem;
+    margin-bottom: 2rem;
 }

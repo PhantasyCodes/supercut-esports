@@ -18,7 +18,6 @@ const Home = () => {
           <Fortnite />
         </ParallaxLayer>
       </Parallax>
-
     </div>
   )
 }
