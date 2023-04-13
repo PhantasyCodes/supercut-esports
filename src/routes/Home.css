@@ -31,10 +31,11 @@
     align-items: center;
 }
 
-.hamburger h1 {
+.hamburger h2 {
     margin-right: 2rem;
     font-weight: 500;
     font-size: 1.5rem;
+    margin-bottom: 5px;
 }
 
 .hero {
