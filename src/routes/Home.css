@@ -58,10 +58,31 @@
 }
 
 .fortnite-container {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #78E185;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .fortnite-text {
+    max-width: 55vw;
+}
+
+.fortnite-logo {
+    max-width: 44rem;
+}
+
+.fortnite-text h2 {
+    font-size: 5rem;
+}
+
+.fortnite-text p {
+    font-size: 3rem;
+}
+
+.unique {
+    position: absolute;
+    left: 0;
+    bottom: 13.5rem;
 }
