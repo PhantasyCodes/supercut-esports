@@ -6,6 +6,7 @@
     left: 0;
     right: 0;
     margin: 2.5rem auto;
+    z-index: 99;
 }
 
 .hamburger {
@@ -54,4 +55,13 @@
 .hero img {
     margin-top: 5rem;
     max-width: 30rem;
+}
+
+.fortnite-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #78E185;
+}
+
+.fortnite-text {
 }
