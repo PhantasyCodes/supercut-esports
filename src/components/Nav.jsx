@@ -22,7 +22,7 @@ const Nav = () => {
 
   const menuTransition = { type: "spring", duration: 1, stiffness: 33, delay: 0.1 }
 
-  const navTransition = { type: 'spring', stiffness: 560, damping: 20 }
+  const navTransition = { type: 'spring', stiffness: 160, damping: 50 }
 
   const navVariants = {
       show: {
