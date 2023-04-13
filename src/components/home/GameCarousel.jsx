@@ -12,6 +12,8 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import arrowRight from '../../assets/icons/next.png'
 import arrowLeft from '../../assets/icons/prev.png'
 import callOfDuty from '../../assets/images/cod.jpg'
+import fifa from '../../assets/images/fifa.png'
+import fortnite from '../../assets/images/fortnite.png'
 
 const settings = {
     dots: true,
@@ -52,7 +54,7 @@ const GameCarousel = () => {
                     <h2><span>SUPERCUT</span> COD LOBBIES</h2>
                     <img src={callOfDuty} alt="COD" />
                     <div className="slide-text">
-                        <p>FIFA events with cash prizes, and more winnings. Open to all players. Multiple types of tournaments and prizes!</p>
+                        <p>Custom Warzone lobbies with cash prizes as well. Open to all players. Stay tuned on Saturdays and Sundays!</p>
                         <motion.button 
                             whileHover={{boxShadow: '1rem 1rem 0 black', 
                             transition: {type: 'spring', stiffness: 560, damping: 20,}}} 
@@ -64,8 +66,8 @@ const GameCarousel = () => {
             </Slide>
             <Slide>
                 <div style={{display: 'flex'}} className='game-slide'>
-                    <h2><span>SUPERCUT</span> COD LOBBIES</h2>
-                    <img src={callOfDuty} alt="COD" />
+                    <h2><span>SUPERCUT</span> FIFA LOBBIES</h2>
+                    <img src={fifa} alt="fifa" />
                     <div className="slide-text">
                         <p>FIFA events with cash prizes, and more winnings. Open to all players. Multiple types of tournaments and prizes!</p>
                         <motion.button 
@@ -80,7 +82,7 @@ const GameCarousel = () => {
             <Slide>
                 <div style={{display: 'flex'}} className='game-slide'>
                     <h2><span>SUPERCUT</span> COD LOBBIES</h2>
-                    <img src={callOfDuty} alt="COD" />
+                    <img src={fortnite} alt="COD" />
                     <div className="slide-text">
                         <p>FIFA events with cash prizes, and more winnings. Open to all players. Multiple types of tournaments and prizes!</p>
                         <motion.button 
